@@ -1,39 +1,32 @@
 # LabView QuickDrop AddLabels
 
-A LabVIEW Quick-Drop (QD) plug-in for adding or removing labels to block diagram elements and subdiagram labels for structure elements.
+A LabVIEW Quick-Drop (QD) plug-in to easily add or remove labels to blockdiagram elements.
 
 
 ## Installation
-Place the content of the zip file in your `<LabVIEW>\resource\dialog\QuickDrop\plugins` folder.
+Place the `Add Labels.vi` file in your `<LabVIEW>\resource\dialog\QuickDrop\plugins` folder.
 
 ## Usage
 
 This quick-drop plug-in works only in the block diagram.
-Press Ctrl+Space Ctrl+Q to add the labels to the selected items.
-If the plug-in is called using the SHIFT key than the label will be removed. 
+
+### Add or remove a label to SubVIs
+
+Select a SubVI within a blockdiagram.  
+Press `Ctrl+Space` and  `Ctrl+Q`  to add a label to a SubVI.
+For removing the label press `Ctrl+Space`and `Ctrl+Shift+Q`
+
+
+The animated GIF below show the three possible options of the plugin:
+
+* Add/Remove a label to a SubVI.
+* Add/Remove a subdiagram label to a structure element.
+* Add/Remove a label to a wire
+* Show again an already set wire label
+
+![Using the plug-in](../master/usage.gif)
+
+It is also possible to select more than one element within a blockdiagram. Therefore the appropriate label will be added to the selected elements.
 
 ## Hints
-The plug-in has been developed with LabVIEW 2016.
-
-## License
-
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
+The plug-in is developed in LabVIEW 2016. If you have an older version of LabView you have to save the provided project to this older version by yourself.
