@@ -14,7 +14,21 @@ This quick-drop plug-in works only in the block diagram.
 
 Select a SubVI within a blockdiagram.  
 Press `Ctrl+Space` and  `Ctrl+Q`  to add a label to a SubVI.
-For removing the label press `Ctrl+Space`and `Ctrl+Shift+Q`
+For removing the label press `Ctrl+Space`and `Ctrl+Shift+Q`.
+
+### Add or remove a subdiagram label to a structure element
+
+Select a structure element within a blockdiagram.
+Press `Ctrl+Space` and `Ctrl+Q`to add a subdiagram label to the structure element.
+For removing the label press `Ctrl+Space`and `Ctrl+Shift+Q`.
+
+### Add or remove a label to a wire
+
+Select a wire.
+Press `Ctrl+Space` to open the quick drop. Insert a label text to the input field.
+Press `Ctrl+Q` to add the inserted label to the wire. The plug-in will add `>>` before and after the label text.
+For removing the label press `Ctrl+Space`and `Ctrl+Shift+Q`.
+If you want to add the removed label again press `Ctrl+Space` and `Ctrl+Q`.
 
 
 The animated GIF below show the three possible options of the plugin:
