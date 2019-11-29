@@ -43,4 +43,4 @@ The animated GIF below show the three possible options of the plugin:
 It is also possible to select more than one element within a blockdiagram. Therefore the appropriate label will be added to the selected elements.
 
 ## Hints
-The plug-in is developed in LabVIEW 2016. If you have an older version of LabView you have to save the provided project to this older version by yourself.
+The plug-in uses a malleable VI. Therefore the plu-in only works with LabVIEW 2017 and above.

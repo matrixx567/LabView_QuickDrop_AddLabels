@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-08-02 16:28:56" Modified_Date="2019-11-23 11:09:34" Creator="Martin" Comments="" ID="5b6c15a99b05895d02bd56ef3b5c00be">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-08-02 16:28:56" Modified_Date="2019-11-29 16:25:38" Creator="Martin" Comments="" ID="db93cb9ef0957522df912e2f046e7b42">
   <Library_General_Settings>
     <Package_File_Name>MNProjects_lib_QuickDrop_AddLabels</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>build</Library_Output_Folder>
@@ -32,7 +32,8 @@
       <Copyright/>
       <Packager>Martin Nöhrer</Packager>
       <URL>http://mnprojects.net</URL>
-      <Release_Notes/>
+      <Release_Notes>Add label placement for constants.
+Set wire label to center of selected wire</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -128,6 +129,9 @@
       </Exclusions>
       <Exclusions>
         <Path>usage.gif</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>_Add Labels/Natt Sequence.vit</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>

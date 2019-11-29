@@ -12,12 +12,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="_Add Labels" Type="Folder">
+			<Item Name="Set Constant Label.vi" Type="VI" URL="../_Add Labels/Set Constant Label.vi"/>
+			<Item Name="Enum to Array of Enums.vim" Type="VI" URL="../_Add Labels/Enum to Array of Enums.vim"/>
+			<Item Name="Natt Sequence.vit" Type="VI" URL="../_Add Labels/Natt Sequence.vit"/>
+			<Item Name="Set Wire Label.vi" Type="VI" URL="../_Add Labels/Set Wire Label.vi"/>
+		</Item>
 		<Item Name="Add Labels.vi" Type="VI" URL="../Add Labels.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
 				<Item Name="QuickDrop Parse Plugin Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Parse Plugin Variant.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -28,9 +35,9 @@
 				<Property Name="DestinationID[0]" Type="Str">{8162C916-32E6-493B-9C7C-5E5D1FF82FD1}</Property>
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
 				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
-				<Property Name="IncludedItemCount" Type="Int">1</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/Add Labels.vi</Property>
-				<Property Name="IncludedItems[1]" Type="Ref"></Property>
+				<Property Name="IncludedItemCount" Type="Int">2</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/My Computer/_Add Labels/Enum to Array of Enums.vim</Property>
+				<Property Name="IncludedItems[1]" Type="Ref">/My Computer/Add Labels.vi</Property>
 				<Property Name="IncludeProject" Type="Bool">false</Property>
 				<Property Name="Path[0]" Type="Path">../build/QuickDrop_AddLabels.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
