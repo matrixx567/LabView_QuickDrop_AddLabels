@@ -14,6 +14,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="_Add Labels" Type="Folder">
 			<Item Name="Set Constant Label.vi" Type="VI" URL="../_Add Labels/Set Constant Label.vi"/>
+			<Item Name="Set Structure Subdiagram Label.vi" Type="VI" URL="../_Add Labels/Set Structure Subdiagram Label.vi"/>
+			<Item Name="Set FlatSequence Subdiagram Label.vi" Type="VI" URL="../_Add Labels/Set FlatSequence Subdiagram Label.vi"/>
+			<Item Name="Set MultiFrame Subdiagram Label.vi" Type="VI" URL="../_Add Labels/Set MultiFrame Subdiagram Label.vi"/>
 			<Item Name="Enum to Array of Enums.vim" Type="VI" URL="../_Add Labels/Enum to Array of Enums.vim"/>
 			<Item Name="Natt Sequence.vit" Type="VI" URL="../_Add Labels/Natt Sequence.vit"/>
 			<Item Name="Set Wire Label.vi" Type="VI" URL="../_Add Labels/Set Wire Label.vi"/>
@@ -22,6 +25,7 @@
 			<Item Name="QuickDrop Add Labels.vi" Type="VI" URL="../help/QuickDrop Add Labels.vi"/>
 		</Item>
 		<Item Name="Add Labels.vi" Type="VI" URL="../Add Labels.vi"/>
+		<Item Name="QuickDrop AddLabels.vipb" Type="Document" URL="../QuickDrop AddLabels.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="QuickDrop Plugin Data ver1.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/QuickDrop Plugin Data ver1.ctl"/>
@@ -35,7 +39,6 @@
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
-				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
