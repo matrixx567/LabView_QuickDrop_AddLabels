@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-08-02 16:28:56" Modified_Date="2020-09-03 21:01:20" Creator="Martin" Comments="" ID="c2b1f0df3ab0c8b70f9018afd4f9a0de">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-08-02 16:28:56" Modified_Date="2020-09-04 16:52:11" Creator="Martin" Comments="" ID="281f7ebbea87674b393efe6b924bcb76">
   <Library_General_Settings>
     <Package_File_Name>MNProjects_lib_QuickDrop_AddLabels</Package_File_Name>
-    <Library_Version>1.2.0.8</Library_Version>
+    <Library_Version>1.3.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>build</Library_Output_Folder>
@@ -66,7 +66,8 @@ An animated GIF on the homepage shows the usage of the plug-in.
       <Copyright/>
       <Packager>Martin Nöhrer</Packager>
       <URL>https://github.com/matrixx567/LabView_QuickDrop_AddLabels</URL>
-      <Release_Notes>Add function to directly add text from combo box to Subdiagram labels.</Release_Notes>
+      <Release_Notes>Add support for showing and hiding labels for all node types.
+Add support for showing and hiding labels of frontpanel controls.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
